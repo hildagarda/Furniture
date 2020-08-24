@@ -14,19 +14,13 @@ public class Furniture {
         this.name = name;
     }
 
-    ;
-
     public String getName() {
         return name;
     }
 
-    ;
-
     public void setStyle(String style) {
         this.style = style;
     }
-
-    ;
 
     public String getStyle() {
         return style;
@@ -36,25 +30,18 @@ public class Furniture {
         this.color = color;
     }
 
-    ;
-
     public String getColor() {
         return color;
     }
-
-    ;
 
     public void setPrice(int price) {
         this.price = price;
     }
 
-    ;
-
     public int getPrice() {
         return price;
     }
 
-    ;
 
     public Furniture(String name, String style, String color, int price) {
         this.name = name;
@@ -62,19 +49,11 @@ public class Furniture {
         this.price = price;
     }
 
-    ;
-
     public void Serve() {
 
     }
 
-    ;
-
     public Furniture() {
 
     }
-
-    ;
-
-
 }
